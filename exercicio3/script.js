@@ -18,6 +18,8 @@ const frase = "Jorge tem uma casa verde e com portão azul, com os dizeres: \"BO
 const novastring = frase.replace("verde","rosa").replace("azul","laranja")
 console.log(`primeira frase: ${frase}`)
 console.log(`segunda frase: ${novastring}`)
+console.log("tem verde ? "+ novastring.includes("verde"))
+console.log("tem laranja ? "+ novastring.includes("laranja"))
 
 //EXTRA
 const extra = "mas não deixe o gato sair".toUpperCase()
